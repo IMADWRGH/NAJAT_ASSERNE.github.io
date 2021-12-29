@@ -1,0 +1,88 @@
+body{
+    background-image: url("img2.jpg");
+    color: blanchedalmond;
+    min-height: 100vh;
+
+}
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+.global{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-sizing: initial;
+    border-left: 5px solid #393f77;
+    background:#121636;
+    transition: 0.5s;
+}
+.global ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: left 5px;;
+    padding-top: 40px;
+}
+.global ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.global ul li.action {
+    background: #fff;
+}
+.global ul li a{
+    position:relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+
+}
+.global ul li.action a{
+    color: #333;
+}
+.global ul a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+.global ul li a .icon ion-icon {
+    font-size: 1.5em;
+}
+.global ul li a .title {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: normal;
+}
+.hi{
+    text-decoration: cornflowerblue;
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+    line-height: 40px;
+    top: 10px;
+    padding-left: 10px;
+    margin: 25px;
+    padding: 25px;
+    
+}
+.hi a{
+    color: cornsilk;
+    display: block;
+}

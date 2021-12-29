@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Presonal page">
+    <link rel="stylesheet" href="style2.css">
+    <title>NAJAT ASSERNE</title>
+</head>
+<body>
+    <div class="hi">
+    <pre>Hello i'm <a href="https://ma.linkedin.com/in/najat-asserne-b13b28153">NAJAT ASSENRE </a>
+         i'm a Telecom Engineer.
+            young graduate of a master's degree in the field of telecommunications 
+            and optical networks.Passionate about new technologies, sports,
+            in particular swimming as well as travel
+    </pre>  
+    </div>
+   <div class="global">
+       <ul>
+           <li class="list action">
+               <a href="index2.html">
+                   <span class="icon"><ion-icon name="home"></ion-icon></span>
+                   <span class="title">Home</span>
+               </a>
+           </li>
+           <li class="list ">
+            <a href="index.html">
+                <span class="icon"><ion-icon name="contact"></ion-icon></span>
+                <span class="title">Profile</span>
+            </a>
+           </li>
+            <li class="list">
+            <a href="mailto:najat.asserne@gmail.com">
+                <span class="icon"><ion-icon name="paper-plane"></ion-icon></span>
+                <span class="title">Contact me</span>
+            </a>
+        </li>
+       </ul>
+   </div> 
+   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+   <script> let list = document.querySelectorAll('.list');
+            for (let i =0 ; i< list.length; i++)
+                list[i].onclick = function(){
+                    let j=0;
+                    while(j<list.length ){
+                         list[j++].className = 'list'; 
+                    }
+                    list[i].className= 'list action';
+                } 
+    </script>
+</body>
+</html>

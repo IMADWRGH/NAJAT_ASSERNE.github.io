@@ -1,0 +1,31 @@
+body{
+    background-image: url("img2.jpg");
+    color: blanchedalmond;
+    
+}
+.contactinfo{
+    color: cornsilk;
+    text-align:justify;
+    font-size: 25px;
+
+}
+.intro{
+    text-align: center;
+    font-weight:bold;
+    color: cornsilk;
+}
+.intro .heading{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.intro .prof{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.links{
+    list-style: none;
+}
+.maq{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(2, 10, 17);
+}
